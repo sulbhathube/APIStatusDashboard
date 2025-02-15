@@ -10,7 +10,6 @@ app = dash.Dash(__name__)
 app.layout = html.Div([
     # Header
     html.Div([
-        html.Img(src='https://upload.wikimedia.org/wikipedia/commons/3/31/Elevance_Health_logo.png', style={'height': '50px', 'margin-right': '20px', 'padding': '10px'}),
         html.Div(id='datetime', style={'margin-left': '20px', 'font-size': '20px'}),
         html.H1("Status App", style={'textAlign': 'center', 'width': '100%'})
     ], style={'display': 'flex', 'align-items': 'center', 'justify-content': 'space-between', 'padding': '10px', 'backgroundColor': '#0033a0', 'color': 'white'}),
